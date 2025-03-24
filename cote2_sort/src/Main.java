@@ -12,6 +12,8 @@ public class Main {
         for(int i = 0; i < numbers.length; i++) {
             numbersString[i] = String.valueOf(numbers[i]);
         }
+//        System.out.println(Arrays.toString(numbersString));
+        Arrays.sort(numbersString,(a, b) -> (b + a).compareTo(a + b) );
         System.out.println(Arrays.toString(numbersString));
         String answer = "";
         return answer;
