@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-            int numbers[] = {3, 30, 34, 5, 9};
+            int numbers[] = {0, 0, 0, 0, 0};
             System.out.println(solution(numbers));
     }
 
@@ -22,6 +22,9 @@ public class Main {
             sb.append(s);
         }
         answer = sb.toString();
+        if(answer.startsWith("0")){
+            answer = "0";
+        }
         return answer;
     }
 }
