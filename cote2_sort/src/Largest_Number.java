@@ -8,15 +8,18 @@ public class Largest_Number {
         for (int i = 0; i < numbers.length; i++) {
             numbersString[i] = String.valueOf(numbers[i]);
         }
-//        System.out.println(Arrays.toString(numbersString));
-        Arrays.sort(numbersString, (a, b) -> (b + a).compareTo(a + b));
-//        System.out.println(Arrays.toString(numbersString));
 
+        // 비교 후, 정렬
+        Arrays.sort(numbersString, (a, b) -> (b + a).compareTo(a + b));
+
+        // 이어붙이기
         StringBuilder sb = new StringBuilder();
         for (String s : numbersString) {
             sb.append(s);
         }
         answer = sb.toString();
+
+        // 예외처리 - 모든 원소 0일 때 0으로 변환
         if (answer.startsWith("0")) {
             answer = "0";
         }
