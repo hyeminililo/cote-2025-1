@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/04주차 스택,큐/correctParenthesis/correctParenthesis.iml" filepath="$PROJECT_DIR$/04주차 스택,큐/correctParenthesis/correctParenthesis.iml" />
       <module fileurl="file://$PROJECT_DIR$/cote.iml" filepath="$PROJECT_DIR$/cote.iml" />
     </modules>
   </component>
