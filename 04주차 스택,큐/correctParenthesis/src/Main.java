@@ -19,8 +19,8 @@ class Solution {
         for (char c : s.toCharArray()) {
             if (c == '(') {
                 stack.push(c);
-
             }
+
             if (c == ')' && !stack.isEmpty()) {
                 if (stack.peek() == '(') {
                     stack.push(c);
