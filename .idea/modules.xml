@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/04주차 스택,큐/correctParenthesis/correctParenthesis.iml" filepath="$PROJECT_DIR$/04주차 스택,큐/correctParenthesis/correctParenthesis.iml" />
       <module fileurl="file://$PROJECT_DIR$/cote.iml" filepath="$PROJECT_DIR$/cote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04주차 스택,큐/priorityProcess/priorityProcess.iml" filepath="$PROJECT_DIR$/04주차 스택,큐/priorityProcess/priorityProcess.iml" />
     </modules>
   </component>
 </project>
