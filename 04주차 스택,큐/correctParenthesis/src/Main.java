@@ -12,7 +12,6 @@ class Solution {
     boolean solution(String s) {
         ArrayDeque<Character> stack = new ArrayDeque<>();
         boolean answer = true;
-
         if (s.startsWith(")")) {
             answer = false;
             return answer;
